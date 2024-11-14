@@ -1,10 +1,37 @@
-# Math formulas
-## Area
-- Circle: S = πR²
-- Rectangle: S = ab
-- Square: S = a²
+Данный проект представляет собой библиотеку для работы с геометрическими фигурами. Он включает функции для расчета характеристик таких фигур, как круг и квадрат.
 
-## Perimeter
-- Circle: P = 2πR
-- Rectangle: P = 2a + 2b
-- Square: P = 4a
+   **Описание каждой функции с примерами вызова**
+
+   **Класс Circle**
+
+   - **area(radius):** Вычисляет площадь круга по заданному радиусу.
+
+python
+     circle = Circle(radius=5)
+     circle.area() -> 78.54
+
+
+   - **circumference(radius):** Вычисляет длину окружности по заданному радиусу.
+     
+python
+     circle = Circle(radius=5)
+     circle.circumference() -> 31.42
+
+   **Класс Square**
+
+   - **area(side):** Вычисляет площадь квадрата по заданной стороне.
+    
+python
+     square = Square(side=4)
+     square.area() -> 16
+
+
+   - **perimeter(side):** Вычисляет периметр квадрата по заданной стороне.
+     
+python
+     square = Square(side=4)
+     square.perimeter() -> 16
+
+   **История изменения проекта**
+
+   - Хеш коммита: `9ffc1e58ce37c054e67d44d3c7517d26e6efbf78` - добавил блоки комментариев в `circle.py` и `square.py`, в которых описывается сама функция и пример её вызова.
